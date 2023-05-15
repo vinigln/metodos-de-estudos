@@ -26,15 +26,3 @@ Os resumos são uma técnica de estudo que envolve a criação de versões conci
 FOOTER: 
 
 Estes é um exemplo de site para fixação de aprendizagem sobre HTML e CSS, o conteúdo e métodos refletem a maneira em que organizo meus estudos e acredito que pode ajudá-lo(a) a ter um rotina de estudo mais eficaz. Contato: (link https://github.com/vinigln)
-
-Crédito as fotos:
-
-- Vlada Karpovich
-- Olena Bohovyk
-- Angela Roma
-- Enzo Muñoz
-
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
