@@ -11,7 +11,7 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
 }
 
 header{
@@ -50,47 +50,94 @@ section{
 
 .normal h1 {
     font-family: "Noto Sans";
-    font-size: 50px;
+    font-size: 5vw;
     padding: 10px;
     padding-top: 0;
+    padding-bottom: 20px;
     text-align: center;
 }
 
 .normal h2{
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     font-weight: 400;
     text-indent: 10px;
 }
 
 .normal p{
-    font-size: 19px;
+    font-size: 25px;
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 20px;
+    padding: 0 20px 0 20px;
 }
 
+.normal p#ancoravoltar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.normal a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+ }
+
+ .normal a:hover{
+    text-decoration: underline;
+ }
+
 .imagem{
+    height: 200px;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
 }
 .imagem h3{
+    font-size: 50px;
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: cyan;
-    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 15px;
     align-self: center;
+}
+
+section#img01 {  
+    background-image: url("./imagens/pexels-vlada-karpovich-4050347.jpg");
+}
+
+section#img02 {
+    background-image: url("imagens/pexels-pew-nguyen-244135.jpg");
+    background-position: center center;
+}
+
+section#img03 {  
+    background-image: url("imagens/pexels-angela-roma-7319307.jpg");
+    background-position: center center;
+}
+
+section#img04 {  
+    background-image: url("imagens/pexels-enzo-muñoz-2663853.jpg");
 }
 
 footer{
     padding: 10px;
     text-align: justify;
+    background-color: white;
+    border-top: 1.5px solid black;
 }
 
 footer ul{
     font-weight: bold;
 }
 footer p li{
-    font-size: 19px;
+    font-size: 20px;
 }
